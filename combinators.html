@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            font-weight: bold;
+        }
+        ul > li{
+            color: red;
+        } 
+        ul ul{
+            font-style: italic;
+        }
+        ol ~ ul{
+            word-spacing: 10px;
+            background-color: black;
+        }
+        ol + ul{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <p>this is para</p>
+    <ul>
+        <li>one
+            <ul>
+                <li>one point one</li>
+                <li>one point two</li>
+            </ul>
+        </li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+</body>
+</html>
