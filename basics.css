@@ -1,0 +1,25 @@
+*{
+    color: red;
+    margin-left: 30px;
+}
+body{
+    margin-top: 80px
+}
+body{
+    margin-left: 90px;
+}
+div{
+    margin-left: 70px;
+}
+#id1{
+    background-color: silver;
+}
+*{
+    background-color: burlywood;
+}
+.cl1{
+    background-color: #880088;
+}
+#id2{
+    background-color: blue;
+}
