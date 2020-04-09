@@ -1,0 +1,12 @@
+#div1{
+    height: 400px;
+    width: 500px;
+    background-color: orange;
+   /*transform: translate(30px, 50px) */
+   /*transform: scale(2);*/
+   /*transform: rotateX(45deg); */
+  /* transform: skew(45deg, 0); */
+   transform: translate(45px, 45px);
+
+
+}
