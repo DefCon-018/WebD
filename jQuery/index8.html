@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src= "https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(()=>{
+            $('button').click(()=>{
+                let div = $('div');
+                div.animate({height: '300px', opacity: '0.5'}, 'slow');
+                div.animate({width: '300px', opacity: '0.8'}, 'slow');
+                div.animate({height: '100px', opacity: '0.8'}, 'slow');
+                div.animate({width: '100px', opacity: 'o.8'}, 'slow');
+                div.animate({left: '250px'}, 'slow');
+                div.animate({fontSize: '3em'}, 'slow');
+            })
+        })
+    </script>
+</head>
+<body>
+    <button>Animation</button>
+    <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed or absolute position</p>
+    <div style= "height: 100px; width: 100px; background-color: cyan; position: absolute;">Hello</div>
+</body>
+</html>

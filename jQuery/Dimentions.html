@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src= "https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(()=>{
+            $('button').click(()=>{
+                var text= " ";
+                text += "width of div is:" + $('#div1').width() + '<br>';
+                text += "height of div is:" + $('#div1').height() + "<br>";
+                text += "outer height div is " + $('#div1').outerHeight() + "<br>";
+                text += "inner height of div is " + $('#div1').innerHeight() + "<br>"
+                text += "outer width of div is " + $('#div1').outerWidth() + '<br>'
+                $('#div1').html(text);
+            })
+        })
+    </script>
+    <style>
+        #div1{
+            background-color: cyan;
+            width: 200px;
+            height: 300px;
+            padding: 10px;
+            margin: 2px;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <button>Display dimensions of div</button>
+    <div id= "div1"></div>
+    <p>width() method returns the value of width</p>
+    <p>height() method returns the value of height</p>
+</body>
+</html>

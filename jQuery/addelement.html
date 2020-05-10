@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src= "https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(()=>{
+            $('#parabtn').click(()=>{
+                $('p').append(' <b>appended text</b>');
+            })
+            $('#listBtn').click(()=>{
+                $('#olList').append('<li>Appended item</li>');
+            })
+            $('#prepend').click(()=>{
+                $('p').prepend('<b>prepended para </b>');
+            })
+            $('#preItem').click(()=>{
+                $('#olList').prepend('<li>prepended item</li>')
+            })
+        })
+        function appendText(){
+            var item1= $('<p></p>').text("Text jQuery");
+                var item2= document.createElement('p');
+                item2.innerHTML("Text");
+                $('body').append(text1, text2);
+        }
+    </script>
+</head>
+<body>
+    <p id= "p1">this is a <b>bold</b> paragraph</p>
+    <p id= "p2">this is another <b>bold</b> paragraph</p>
+    <button id= "parabtn">Append para</button>
+    <button id= "listBtn">Append list</button>
+    <button id= "prepend">Prepend para</button>
+    <button id= "preItem">Prepend list</button>
+    <button id= "special" onclick="appendText()">Click me</button>
+    <ol id= "olList">
+
+    </ol>
+</body>
+</html>
