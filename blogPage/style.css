@@ -1,0 +1,82 @@
+.hli{
+    display: inline;
+    margin-left: 50px;
+    font-size: large;
+    font-family: sans-serif;
+}
+ul{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+li a:hover{
+    border-bottom: 2px solid lightgreen;
+    transition-delay: 100ms;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    font-size: small;
+    border: none;
+}
+.btn:hover{
+    background-color: black;
+}
+
+p{
+    font-size: large;
+    font-family: sans-serif;
+}
+h4{
+    font-family: sans-serif;
+}
+
+input{
+    display: block;
+    font-size: x-large;
+}
+
+#subscribe:hover{
+    background-color: green;
+}
+
+.aside{
+    border-top: 4px solid black;
+    margin-top: 30px;
+}
+
+main{
+    width: 70%;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+aside{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: 6px;
+}
+
+button[type= "submit"]{
+    border: none;
+    font-size: large;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.container{
+    margin-left: 120px;
+    margin-right: 120px;
+}
